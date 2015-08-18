@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Sibriver: testtask.beta</string>
+	<string name="navigation_drawer_open">Статус "Open_drawer"</string>
+	<string name="navigation_drawer_close">Статус "Close_drawer"</string>
+    
+	<string name="title_section1">Все заказы</string>
+	<string name="title_section2">В работе</string>
+	<string name="title_section3">С вопросом</string>
+	<string name="title_section4">Отмененные</string>
+	<string name="title_section5">Архив</string>
+    
+	<string name="JobStaruses0">новая</string>
+	<string name="JobStaruses1">в работе </string>
+	<string name="JobStaruses2">выполнено</string>
+	<string name="JobStaruses3">отменено</string>
+	<string name="JobStaruses4Q">вопрос</string>
+					
+    <string name="action_delete">Удаление</string>
+    <string name="delete_choosed">Удаление элементов списка</string>
+    <string name="delete_isnt_choosed">Элементы списка для удаления не отмечены</string>
+    <string name="action_settings">Настройки</string>
+
+</resources>

@@ -1,0 +1,181 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:layout_gravity="center_vertical"
+    android:clickable="true"
+    android:gravity="center_vertical"
+    android:onClick="itemOnClick"
+    android:paddingBottom="6.0dp"
+    android:paddingTop="6.0dp" >
+
+    <!--
+    android:background="@drawable/lv_actionbar_item" 
+     -->
+
+    <TextView
+        android:id="@+id/txtId"
+        android:layout_width="40.0dp"
+        android:layout_height="40.0dp"
+        android:layout_alignParentLeft="true"
+        android:layout_centerVertical="false"
+        android:text="txtId"
+        android:textAppearance="?android:textAppearanceMedium" />
+
+    <TextView
+        android:id="@+id/txtName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="16.0dp"
+        android:layout_marginRight="16.0dp"
+        android:layout_toRightOf="@+id/txtId"
+        android:text="txtName"
+        android:textAppearance="?android:textAppearanceMedium"
+        android:textSize="20.0sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/txtAdress"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/txtName"
+        android:layout_marginLeft="16.0dp"
+        android:layout_marginRight="16.0dp"
+        android:layout_toRightOf="@+id/txtId"
+        android:text="txtAdress"
+        android:textAppearance="?android:textAppearanceMedium"
+        android:textColor="@color/dim_gray"
+        android:textSize="16.0sp" />
+
+    <LinearLayout
+        android:id="@+id/laStatus"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/txtAdress"
+		android:layout_marginLeft="16.0dp"
+        android:layout_marginRight="16.0dp"
+        android:layout_toRightOf="@+id/txtId" >
+
+	    <TextView
+	        android:id="@+id/txtStatus"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:layout_below="@+id/txtAdress"
+	        android:layout_toRightOf="@+id/txtId"
+	        android:text=""
+	        android:textAppearance="?android:textAppearanceMedium" />
+
+	    <TextView
+	        android:id="@+id/txtT1"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:layout_below="@+id/txtAdress"
+	        android:layout_marginRight="4.0dp"
+	        android:layout_toRightOf="@+id/txtStatus"
+	        android:background="@color/dark_golden_rod"
+	        android:height="18dp"
+	        android:paddingLeft="8dp"
+	        android:paddingRight="8dp"
+	        android:text="txtT1"
+	        android:textAppearance="?android:textAppearanceMedium"
+	        android:textColor="@color/white"
+	        android:textSize="12.0sp" />
+
+	    <TextView
+	        android:id="@+id/txtT2"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:layout_below="@+id/txtAdress"
+	        android:layout_marginRight="4.0dp"
+	        android:layout_toRightOf="@+id/txtT1"
+	        android:background="@color/green"
+	        android:height="18dp"
+	        android:paddingLeft="8dp"
+	        android:paddingRight="8dp"
+	        android:text="txtT2"
+	        android:textAppearance="?android:textAppearanceMedium"
+	        android:textColor="@color/white"
+	        android:textSize="12.0sp" />
+	    
+	    <TextView
+	        android:id="@+id/txtT3"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:layout_below="@+id/txtAdress"
+	        android:layout_marginRight="4.0dp"
+	        android:layout_toRightOf="@+id/txtT2"
+	        android:background="@color/dark_goldenrod"
+	        android:height="18dp"
+	        android:paddingLeft="8dp"
+	        android:paddingRight="8dp"
+	        android:text="txtT3"
+	        android:textAppearance="?android:textAppearanceMedium"
+	        android:textColor="@color/white"
+	        android:textSize="12.0sp" />
+
+	    <TextView
+	        android:id="@+id/txtT4"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:layout_below="@+id/txtAdress"
+	        android:layout_toRightOf="@+id/txtT3"
+	        android:background="@color/fire_brick"
+	        android:height="18dp"
+	        android:paddingLeft="8dp"
+	        android:paddingRight="8dp"
+	        android:text="txtT4"
+	        android:textAppearance="?android:textAppearanceMedium"
+	        android:textColor="@color/white"
+	        android:textSize="12.0sp" />
+	    	    	    	    	    
+	    	    	    	    	    	    	    
+	</LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/laGeo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/laStatus"
+		android:layout_marginLeft="16.0dp"
+        android:layout_marginRight="16.0dp"
+        android:layout_toRightOf="@+id/txtId" >
+
+        <TextView
+            android:id="@+id/txtLat"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="txtLat"
+			android:layout_marginLeft="16.0dp"
+    	    android:layout_marginRight="16.0dp"
+            android:textAppearance="?android:textAppearanceMedium" />
+
+        <TextView
+            android:id="@+id/txtLon"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="txtLon"
+			android:layout_marginLeft="16.0dp"
+    	    android:layout_marginRight="16.0dp"
+            android:textAppearance="?android:textAppearanceMedium" />
+    </LinearLayout>
+
+    <CheckBox
+        android:id="@+id/checkBox1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true" />
+
+    <TextView
+        android:id="@+id/txtCreated"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/checkBox1"
+        android:layout_marginRight="16.0dp"
+        android:text="txtCreated"
+        android:textAppearance="?android:textAppearanceMedium"
+        android:textColor="@color/royal_blue"
+        android:textSize="14.0sp" />
+    
+</RelativeLayout>

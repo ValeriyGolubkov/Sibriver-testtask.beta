@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="dark_golden_rod">#ffcb7300</color>
+    <color name="green">#ff0c8800</color>
+    <color name="dark_goldenrod">#ffab9200</color>
+    <color name="royal_blue">#ff2674cb</color>
+    <color name="dim_gray">#ff595f57</color>
+    <color name="dark_orchic">#ffc12dc7</color>
+    <color name="fire_brick">#ffc12d2b</color>
+    <color name="white">#ffffffff</color>
+</resources>

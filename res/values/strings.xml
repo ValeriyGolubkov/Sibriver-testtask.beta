@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Sibriver: testtask.beta</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+		
+	<string name="title_section1">All orders</string>
+	<string name="title_section2">In progress</string>
+	<string name="title_section3">Question</string>
+	<string name="title_section4">Canceles</string>
+	<string name="title_section5">Archived</string>
+    
+	<string name="JobStaruses0">new</string>
+	<string name="JobStaruses1">in progress</string>
+	<string name="JobStaruses2">complete</string>
+	<string name="JobStaruses3">canceled</string>
+	<string name="JobStaruses4Q">question</string>
+		
+				
+    <string name="action_delete">Delete</string>
+    <string name="delete_choosed">The items is deleted\.\.\.</string>
+    <string name="delete_isnt_choosed">Ops.. Sorry. The items wasn\'t been choosed.</string>
+    <string name="action_settings">Settings</string>
+		
+</resources>
